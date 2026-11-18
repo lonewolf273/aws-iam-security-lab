@@ -1,0 +1,27 @@
+[
+  {
+    "eventID": "demo-001",
+    "eventSource": "iam.amazonaws.com",
+    "eventName": "CreateAccessKey"
+  },
+  {
+    "eventID": "demo-002",
+    "eventSource": "iam.amazonaws.com",
+    "eventName": "AttachRolePolicy",
+    "requestParameters": {
+      "roleName": "DemoRole",
+      "policyArn": "arn:aws:iam::aws:policy/AdministratorAccess"
+    }
+  },
+  {
+    "eventID": "demo-003",
+    "eventSource": "iam.amazonaws.com",
+    "eventName": "UpdateAssumeRolePolicy",
+    "requestParameters": {"roleName": "DemoRole"}
+  },
+  {
+    "eventID": "demo-004",
+    "eventSource": "iam.amazonaws.com",
+    "eventName": "ListRolePolicies"
+  }
+]
