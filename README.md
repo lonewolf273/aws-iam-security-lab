@@ -18,7 +18,7 @@ From the project folder, run:
 
 ```cmd
 
-python scan\_events.py sample\_events.json
+python scan_events.py sample_events.json
 
 ```
 
@@ -68,7 +68,7 @@ detection rules look for changes.
 
 python -m pip install pytest
 
-python -m pytest -q test\_detections.py
+python -m pytest -q test_detections.py
 
 ```
 
