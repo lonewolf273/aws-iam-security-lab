@@ -12,7 +12,7 @@ The ListRolePolicies request failed because the role did not have permission to 
 
 CloudTrail recorded AccessDenied at 00:14:51 IST.
 
-![Before the fix: AccessDenied](../evidence-private/before-access-denied.png)
+![Before the fix: AccessDenied](images/before-access-denied.png)
 
 ## Permission fix
 
@@ -24,7 +24,7 @@ ListRolePolicies succeeded and returned the policy name PortfolioReadOwnRole.
 
 CloudTrail recorded the successful request at 00:33:13 IST.
 
-![After the fix: successful request](../evidence-private/after-access-allowed.png)
+![After the fix: successful request](images/after-access-allowed.png)
 
 ## Additional verification
 
