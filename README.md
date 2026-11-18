@@ -1,4 +1,4 @@
-\# AWS IAM Security Lab
+# AWS IAM Security Lab
 
 
 
@@ -8,7 +8,7 @@ and built a Python scanner that flags three IAM changes for review.
 
 
 
-\## Run the offline demo
+## Run the offline demo
 
 
 
@@ -36,7 +36,7 @@ Verified output: `Events scanned: 4 | Findings: 3`
 
 
 
-\## Real AWS investigation
+## Real AWS investigation
 
 
 
@@ -56,11 +56,11 @@ detection rules look for changes.
 
 
 
-\[Read the investigation](docs/iam-access-denied-investigation.md)
+[Read the investigation](docs/iam-access-denied-investigation.md)
 
 
 
-\## Run the tests
+## Run the tests
 
 
 
